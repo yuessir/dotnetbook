@@ -18,4 +18,4 @@ jobs:
         uses: 3ru/gpt-translate@master
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
-          model: "gpt-4-1106-preview"
+          model: "gpt-3.5-turbo-16k"
